@@ -2,9 +2,9 @@ name: Build and deploy to GitHub Pages
 
 on:
   push:
-    branches: [ master ]
+    branches: [ jekyllmaster ]
   pull_request:
-    branches: [ master ]
+    branches: [ jekyllmaster ]
 
 jobs:
   github-pages:
